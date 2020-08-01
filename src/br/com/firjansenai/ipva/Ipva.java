@@ -26,11 +26,12 @@ public class Ipva extends Veiculo {
 	@Override
 	public String toString() {
 		return "Modelo                : " + modelo             + "\n" + 
-			   "Placa                 : " + placa              + "\n" + 
-			   "Combustível           : " + combustivel        + "\n" + 
-			   "Valor do Veículo      : " + valorVeiculo       + "\n" +
-			   "Taxa de Licenciamento : " + taxaLicenciamento  + "\n" +
-			   "Valor do IPVA         : " + valorIpva          + "\n";
+		       "Placa                 : " + placa              + "\n" + 
+		       "Combustível           : " + combustivel        + "\n" + 
+		       "Valor do Veículo      : " + valorVeiculo       + "\n" +
+		       "Taxa de Licenciamento : " + taxaLicenciamento  + "\n" +
+		       "Valor do IPVA         : " + valorIpva          + "\n";
 	}
 
 }
+
