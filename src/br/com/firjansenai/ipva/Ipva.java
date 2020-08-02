@@ -1,11 +1,11 @@
 package br.com.firjansenai.ipva;
 
 public class Ipva extends Veiculo {
-	protected double valorIpva;
-	protected double taxaLicenciamento;
+	private double valorIpva;
+	private double taxaLicenciamento;
 
 	public Ipva(String modelo, String placa, String combustivel, double valorVeiculo, double taxaLicenciamento) {
-		super(modelo, placa, combustivel, valorVeiculo);
+		super(modelo.toUpperCase(), placa.toUpperCase(), combustivel.toUpperCase(), valorVeiculo);
 		this.taxaLicenciamento = taxaLicenciamento;
 	}
 
